@@ -7,8 +7,13 @@ const team = useTeamStore();
 <template>
   <header class="flex justify-between">
     <div>
-      <button class="bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded disabled:bg-gray-400"
-              :disabled="!team.spotsRemaining">Add Member ({{ team.spotsRemaining }} Spots Left)</button>
+      <button
+        class="bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded disabled:bg-gray-400"
+        @click="$emit('add')"
+        :disabled="!team.spotsRemaining"
+      >
+        Add Member ({{ team.spotsRemaining }} Spots Left)
+      </button>
     </div>
 
     <div>

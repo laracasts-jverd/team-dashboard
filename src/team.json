@@ -21,11 +21,6 @@
       "name": "Jill Doe",
       "email": "jill@doe.com",
       "status": "inactive"
-    },
-    {
-      "name": "Jack Doe",
-      "email": "jack@doe.com",
-      "status": "active"
     }
   ]
 }
