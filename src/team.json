@@ -16,6 +16,16 @@
       "name": "Jim Doe",
       "email": "jim@doe.com",
       "status": "active"
+    },
+    {
+      "name": "Jill Doe",
+      "email": "jill@doe.com",
+      "status": "inactive"
+    },
+    {
+      "name": "Jack Doe",
+      "email": "jack@doe.com",
+      "status": "active"
     }
   ]
 }
